@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        text-align: center;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<?php
+$jaar = 29;
+
+//Teken het aantal kaarsjes op de taart...
+
+for($kaarsjes = 0; $kaarsjes < $jaar; $kaarsjes++) {
+    for($aantal = 0; $aantal <= $kaarsjes; $aantal++) {
+        echo " * ";
+    }
+    echo " * ";
+    echo "<br>";
+}
+?>
+
+</body>
+</html>
